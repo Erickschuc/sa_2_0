@@ -1,3 +1,5 @@
+let res = document.getElementById("res")
+
 let numCrescente = [0, 0, 0, 0, 0, 0, 0];
 let valor_atual = 0;
 
@@ -9,7 +11,7 @@ function gerarArrayCrescente() {
     for(let i = 0; i < numCrescente.length; i++) {
         numCrescente[i] = gerarAleatorio(15, 1);
     }
-    document.getElementById('resultadoCrescente').textContent = numCrescente.join(', ');
+
 }
 
 function ordenarCrescente() {
@@ -22,5 +24,10 @@ function ordenarCrescente() {
             }
         }
     }
-    document.getElementById('resultadoCrescente').textContent = numCrescente.join(', ');
+    
+}
+function ordenar(){
+    gerarArrayCrescente()
+    ordenarCrescente()
+    res.innerHTML = numCrescente
 }
