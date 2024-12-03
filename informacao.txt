@@ -1,0 +1,77 @@
+_____________________________________________________________________________________________________________
+
+*pagina principal*
+
+    Informações sobre a empresa __
+    Descrição geral dos serviços __
+    localização (mapa)__
+    vídeo dos principais serviçoes da empresa
+    redes sociais e contatos
+_____________________________________________________________________________________________________________
+
+*Eletroeletrônica*
+
+    Resistores e código de cores
+    Diodo LED e display sete segmentos
+    tinkercad - projeto exemplo com print de tela
+    placa arduíno
+    programa no IDE arduíno
+    entrada analógica no arduíno
+    entrada digital no arduíno
+    saída analógica no arduíno (pwm)
+    saída digital no arduíno
+    multímetro  o que é e para que serve __
+    unidades de medida no multímetro __
+______________________________________________________________________________________________________________
+
+*Redes*
+
+    Elementos, componentes e configuração de rede interna na qual servidor web está inserido
+     (cisco packet tracer)
+     
+    Configuração do servidores: de Domínio (DNS) e de comunicação web (Servidor HTTP) e DHCP
+    equipamentos aplicados em redes com sua respectiva função e configuração
+
+    Conceito de servidor__
+    DNS - o que é__
+    HTTP o que é__
+    DHCP o que é__
+    foto da crimpagem
+    cabo de rede - pinagem
+    condeito do modelo OSI
+    conceito do TCP/IP
+_____________________________________________________________________________________________________________
+
+*Banco de dados*
+
+    O que é um banco de dados__ tem
+    banco de dados relacional__ tem
+    banco de dados não relacional__ tem
+    o que é um diagrama condeitual DER__ tem
+    o que é um diagrama lógico MER__tem
+    apresentar o diagrama DER do exercício_falta
+    apresentar o diagrama MER do exercício_falta
+    quais os banco de dados que a empresa trabalha?__falta
+    O que é dicionário de dados__tem
+___________________________________________________________________________________________________________
+
+*Algoritmos e Fluxogramas*
+
+    Descrição via fluxograma dos algoritmos que a empresa implementa __
+    simbologia de fluxograma __
+    exemplo dos algoritmos buble Sort, insertion sort e selection sort em fluxograma __
+    Mostrar um fluxograma com array de números pares e ímpares
+  
+
+_________________________________________________________________________________________________________
+
+*Programação*
+
+    escolher 3 exercícios da prova de arrays e postar no site __
+    programação dos métodos de busca e ordenação buble Sort, insertion sort e selection sort
+    Programação com criação de elementos dinâmicos (create.element e appendChild)
+    Exemplo de programa com o laço FOR
+    Exemplo de programa com estrutura IF, ELSE e ELSE-IF
+    Filmagem da explicação dos métodos de ordenação
+    programas de ordem crescente e decrescente
+_________________________________________________________________________________________________________

@@ -1,0 +1,134 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: #535353;
+}
+
+/* Cabeçalho */
+header {
+    background: linear-gradient(90deg, #000000, #000000);
+    color: rgb(255, 0, 0);
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 1rem;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(171, 0, 0);
+    font-size: 1rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #FFD700;
+}
+
+/* Conteúdo principal */
+main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+main section {
+    margin-bottom: 2rem;
+}
+
+main h2 {
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #030405;
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+
+main p {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+main pre {
+    background: #f4f4f4;
+    padding: 1rem;
+    border-left: 5px solid #007BFF;
+    overflow-x: auto;
+    border-radius: 5px;
+}
+
+/* Imagens e vídeos */
+main img, main iframe, main video {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 1rem 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: white;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #FFD700;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo responsivo */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+}
